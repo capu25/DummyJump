@@ -1,0 +1,1 @@
+-e "# Godot .gitignore\n.import/\n.cache/\n*.tmp\n*.log" 

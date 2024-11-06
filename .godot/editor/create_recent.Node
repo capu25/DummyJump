@@ -1,0 +1,14 @@
+TextureRect
+HBoxContainer
+Panel
+Button
+VBoxContainer
+Label
+Node
+CollisionShape2D
+Area2D
+AnimatedSprite2D
+RigidBody2D
+BoxContainer
+CanvasLayer
+Sprite2D

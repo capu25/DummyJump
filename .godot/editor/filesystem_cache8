@@ -1,0 +1,34 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1730885565
+game_manager.gd::GDScript::-1::1730629216::0::1::::<>Node<>::
+::res://assets/::1730885504
+Brown.png::CompressedTexture2D::7735188364801523506::1730662606::1730885475::1::::<><>::
+Cherries.png::CompressedTexture2D::7803380700643891626::1730387131::1730885479::1::::<><>::
+Cool Text - Dummy Jump 469414963495211.png::CompressedTexture2D::716312464917243922::1730663142::1730885482::1::::<><>::
+End (Idle).png::CompressedTexture2D::2828261487354616303::1730628573::1730885484::1::::<><>::
+fungus.png::CompressedTexture2D::2047235362551319500::1730883933::1730885486::1::::<><>::
+Gray.png::CompressedTexture2D::3617497611297315495::1730663183::1730885489::1::::<><>::
+Green.png::CompressedTexture2D::6655861853776749250::1730305831::1730885491::1::::<><>::
+heart.png::CompressedTexture2D::168763423475170687::1730883195::1730885493::1::::<><>::
+icon.svg::CompressedTexture2D::8155079090592080635::1730305730::1730885495::1::::<><>::
+Idle (32x32).png::CompressedTexture2D::8312173267156997415::1730883914::1730885498::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::5427163904843323660::1730364663::1730885500::1::::<><>::
+Run (32x32).png::CompressedTexture2D::3118109781540542741::1730365403::1730885502::1::::<><>::
+Terrain (16x16).png::CompressedTexture2D::7166875198363609204::1730305934::1730885504::1::::<><>::
+::res://scenes/::1730885578
+main_character.gd::GDScript::-1::1730366318::0::1::::<>CharacterBody2D<>::
+main_character.tscn::PackedScene::4676819121703056088::1730885502::0::1::::<><>::uid://cjk7ujwskog2o::::res://assets/Jump (32x32).png<>res://scenes/main_character.gd<>uid://dqoqjq4coky52::::res://assets/Idle (32x32).png<>uid://bkoo2vkdbb854::::res://assets/Run (32x32).png
+main_menu.gd::GDScript::-1::1730885063::0::1::::<>Node<>::
+main_menu.tscn::PackedScene::6088089993765624316::1730885586::0::1::::<><>::res://scenes/main_menu.gd<>uid://brslwlwbhxfy2::::res://assets/Gray.png<>uid://kg8tdi2i4cb7::::res://assets/Cool Text - Dummy Jump 469414963495211.png
+::res://scenes/game_objects/::1730885565
+collectable.gd::GDScript::-1::1730629216::0::1::::<>Area2D<>::
+collectable.tscn::PackedScene::8319060099076582655::1730885565::0::1::::<><>::uid://djgasmkgfc2io::::res://assets/Cherries.png<>res://scenes/game_objects/collectable.gd
+enemy.tscn::PackedScene::6930828280086403172::1730885486::0::1::::<><>::uid://4fxwxog6e4h1::::res://assets/fungus.png
+fall_area.gd::GDScript::-1::1730885430::0::1::::<>Area2D<>::
+finish.gd::GDScript::-1::1730663889::0::1::::<>Area2D<>::
+finish.tscn::PackedScene::4444175290138707639::1730885565::0::1::::<><>::res://scenes/game_objects/finish.gd<>uid://bgkbb23cwupsp::::res://assets/End (Idle).png
+::res://scenes/levels/::1730885565
+level1.tscn::PackedScene::6887329173660755327::1730885565::0::1::::<><>::res://game_manager.gd<>uid://c13fcptuttgt3::::res://assets/Green.png<>uid://dadxnf4j68lsm::::res://assets/Terrain (16x16).png<>uid://b7vqr67p3marw::::res://scenes/main_character.tscn<>uid://dqr2x7j2u8lv8::::res://scenes/collectable.tscn<>uid://b4k16g5k5kqtb::::res://scenes/finish.tscn<>uid://dsbfu0dfba2nn::::res://scenes/levels/level2.tscn<>uid://cn0rkk52cn3t::::res://assets/heart.png<>uid://c50ly16fh02r5::::res://scenes/enemy.tscn
+level2.tscn::PackedScene::8425066233106588067::1730885565::0::1::::<><>::res://game_manager.gd<>uid://dig8omd3xcq6u::::res://assets/Brown.png<>uid://dadxnf4j68lsm::::res://assets/Terrain (16x16).png<>uid://b7vqr67p3marw::::res://scenes/main_character.tscn<>uid://dqr2x7j2u8lv8::::res://scenes/collectable.tscn<>uid://cyotsajr5k840::::res://scenes/levels/level3.tscn<>uid://b4k16g5k5kqtb::::res://scenes/finish.tscn
+level3.tscn::PackedScene::6487460685124831367::1730885586::0::1::::<><>::res://game_manager.gd<>uid://c13fcptuttgt3::::res://assets/Green.png<>uid://dadxnf4j68lsm::::res://assets/Terrain (16x16).png<>uid://b7vqr67p3marw::::res://scenes/main_character.tscn<>uid://b4k16g5k5kqtb::::res://scenes/game_objects/finish.tscn<>uid://cs0d7nltaktjo::::res://scenes/main_menu.tscn<>uid://dqr2x7j2u8lv8::::res://scenes/game_objects/collectable.tscn<>uid://c50ly16fh02r5::::res://scenes/game_objects/enemy.tscn<>res://scenes/game_objects/fall_area.gd
+::res://scenes/menu/::1730885578
