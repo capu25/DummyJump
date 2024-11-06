@@ -1,0 +1,58 @@
+[gd_scene load_steps=4 format=3 uid="uid://cs0d7nltaktjo"]
+
+[ext_resource type="Script" path="res://scenes/menu/main_menu.gd" id="1_0uxp5"]
+[ext_resource type="Texture2D" uid="uid://brslwlwbhxfy2" path="res://assets/Gray.png" id="1_jihxh"]
+[ext_resource type="Texture2D" uid="uid://kg8tdi2i4cb7" path="res://assets/Cool Text - Dummy Jump 469414963495211.png" id="2_f2ke4"]
+
+[node name="MainMenu" type="Node"]
+script = ExtResource("1_0uxp5")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_jihxh")
+stretch_mode = 1
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -414.5
+offset_top = -137.0
+offset_right = 414.5
+offset_bottom = 17.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_f2ke4")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+offset_left = 2.0
+offset_top = 435.0
+offset_right = 1149.0
+offset_bottom = 539.0
+alignment = 1
+
+[node name="level1" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Level 1"
+
+[node name="level2" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Level 2"
+
+[node name="Button" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 30
+text = "Level 3"
+
+[connection signal="pressed" from="HBoxContainer/level1" to="." method="_on_level_1_pressed"]
+[connection signal="pressed" from="HBoxContainer/level2" to="." method="_on_level_2_pressed"]
+[connection signal="pressed" from="HBoxContainer/Button" to="." method="_on_button_pressed"]

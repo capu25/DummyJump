@@ -1,0 +1,8 @@
+res://scenes/game_objects/collectable.tscn::ac28d996a930af427100cb08e0588104::1730885565::res://.godot/exported/133200997/export-8ecb72d402841eb26d6338d942825dfb-collectable.scn
+res://scenes/game_objects/enemy.tscn::0e9f7c70322f418ecb821ed005b37739::1730888738::res://.godot/exported/133200997/export-91a29ade62d04b2d8489a43cb7c2d7fc-enemy.scn
+res://scenes/game_objects/finish.tscn::7bf4f86eead0ff86fb5ddf4e0f7a26d7::1730885565::res://.godot/exported/133200997/export-f4d7bf86350c723c676a2906549a4b15-finish.scn
+res://scenes/levels/level1.tscn::6152704396ab4d771a56b53379802626::1730888738::res://.godot/exported/133200997/export-66aca7f1013bed41b50055b308d9ad3d-level1.scn
+res://scenes/levels/level2.tscn::b5b3bc2cc3596662ae79c5ae0105387d::1730888738::res://.godot/exported/133200997/export-8706f32c05f13a45b8e02f8bad895f1e-level2.scn
+res://scenes/levels/level3.tscn::82a1004438490d429ce7c0402133b248::1730888738::res://.godot/exported/133200997/export-d7d11173bd3b60e4b18bdf6d6f78785d-level3.scn
+res://scenes/menu/main_menu.tscn::ab8b426e7f49b8212290a6dee3e6e72d::1730888738::res://.godot/exported/133200997/export-9ae7820dfc5b492c0424e6a9127ac776-main_menu.scn
+res://scenes/main_character.tscn::aef77eee9f1942297120777e6db343f1::1730885502::res://.godot/exported/133200997/export-25c4fc843010c1b3484438ff39d8b567-main_character.scn
